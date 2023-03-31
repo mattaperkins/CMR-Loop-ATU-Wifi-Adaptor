@@ -9,7 +9,8 @@ Flash your ESP32 with the following Arduino Sketch you will need to edit the fir
 lines to reflect your local wifi settings. Once flashed Connect your ESP board directly
 to the keyboard port on your ATU and connect via a web browser to the ESP32's IP
 
-You may need to check your DHCP server for the IP address of your ESP32/Tuner 
+You may need to check your DHCP server for the IP address of your ESP32/Tuner It will 
+show up as the name "Loop Antenna" 
 
 You can then enter in a frequency you want the tuner to switch to or alternatively just 
 tap enter to have the tuner re tune on the current frequency. 
@@ -21,4 +22,10 @@ Enjoy.
 Matt
 VK2FLY
 
+---- 
+
+ESP32 framework.
+MultiButton
+NTPClient
+USBHid 
 
